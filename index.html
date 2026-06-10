@@ -1,70 +1,86 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agro Forte</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    <header class="topo">
-        <h1>Agro Forte, Natureza Protegida</h1>
-        <h2>Equilíbrio para as Próximas Gerações</h2>
-    </header>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: black;
 
-    <main>
-        <section class="conteudo">
-            <h3>Garantia de alimentos, recursos naturais e qualidade de vida para todos</h3>
+    /* Imagem de fundo ilustrativa */
+    background-image: url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
-            <p>
-                Garantir alimentos, proteger os recursos naturais e oferecer qualidade de vida é o objetivo do agro sustentável.
-                Com práticas responsáveis, o setor aumenta a produção sem prejudicar o meio ambiente, construindo um futuro
-                equilibrado para as próximas gerações.
-            </p>
+.topo {
+    background-color: #90ee90; /* verde claro */
+    padding: 30px;
+}
 
-            <button id="saibaMaisBtn">Saiba Mais</button>
+.topo h1,
+.topo h2 {
+    color: black; /* Mudança para preto */
+}
 
-            <div id="textoExtra" class="oculto">
-                <p>
-                    <strong>Agro Forte, Natureza Protegida: Equilíbrio para as Próximas Gerações</strong><br><br>
+.conteudo {
+    padding: 50px 20px;
+}
 
-                    O agronegócio é fundamental para produzir alimentos, fibras e recursos essenciais para a sociedade,
-                    além de fortalecer a economia. No entanto, para que esse crescimento seja sustentável, é preciso
-                    proteger os recursos naturais e o meio ambiente.
+.conteudo h3,
+.conteudo p {
+    color: black; /* Mudança para preto */
+    margin-bottom: 20px;
+}
 
-                    Práticas responsáveis, como o uso consciente da água, o manejo adequado do solo, a rotação de culturas
-                    e tecnologias modernas, permitem aumentar a produtividade sem prejudicar a natureza.
+button {
+    background-color: #006400; /* verde escuro */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
-                    Dessa forma, o agro garante alimentos de qualidade, preserva ecossistemas e contribui para a qualidade
-                    de vida das próximas gerações, construindo um futuro equilibrado entre desenvolvimento e sustentabilidade. 🌱
-                </p>
-            </div>
-        </section>
+button:hover {
+    background-color: #008000;
+}
 
-        <section class="perguntas">
-            <h3>Perguntas Frequentes</h3>
+.oculto {
+    display: none;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.9); /* fundo branco com leve transparência */
+    color: black; /* texto preto */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
 
-            <div class="pergunta">
-                <h4>Pergunta 1</h4>
-                <p><strong>O que significa “Agro Forte, Natureza Protegida”?</strong></p>
-                <p>Resposta: Significa produzir alimentos de forma eficiente enquanto se conserva o meio ambiente.</p>
-            </div>
+.perguntas {
+    padding: 40px 20px;
+    background-color: #f2f2f2; /* fundo cinza claro */
+}
 
-            <div class="pergunta">
-                <h4>Pergunta 2</h4>
-                <p><strong>Como a agricultura pode proteger a natureza?</strong></p>
-                <p>Resposta: Usando práticas como rotação de culturas, plantio direto e preservação de áreas naturais.</p>
-            </div>
+.pergunta {
+    background: white;
+    color: black;
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
 
-            <div class="pergunta">
-                <h4>Pergunta 3</h4>
-                <p><strong>Por que equilibrar produção agrícola e preservação ambiental é importante para o futuro?</strong></p>
-                <p>Resposta: Porque garante alimentos, água limpa e um ambiente saudável para as próximas gerações.</p>
-            </div>
-        </section>
-    </main>
+.pergunta h4 {
+    color: #006400; /* verde escuro para destaque do título */
+}
 
-    <script src="script.js"></script>
-</body>
-</html>
+.pergunta p {
+    margin-top: 10px;
+    line-height: 1.6;
+}
