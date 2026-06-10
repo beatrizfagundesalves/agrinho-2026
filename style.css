@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+
+    /* Imagem de fundo ilustrativa */
+    background-image: url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.topo {
+    background-color: #90ee90; /* verde claro */
+    padding: 30px;
+}
+
+.topo h1,
+.topo h2 {
+    color: white;
+}
+
+.conteudo {
+    padding: 50px 20px;
+}
+
+.conteudo h3,
+.conteudo p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #006400; /* verde escuro */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #008000;
+}
+
+.oculto {
+    display: none;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.perguntas {
+    padding: 40px 20px;
+}
+
+.pergunta {
+    background: rgba(0, 0, 0, 0.6);
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.pergunta h4,
+.pergunta p {
+    color: white;
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+
+    /* Imagem de fundo ilustrativa */
+    background-image: url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.topo {
+    background-color: #90ee90; /* verde claro */
+    padding: 30px;
+}
+
+.topo h1,
+.topo h2 {
+    color: white;
+}
+
+.conteudo {
+    padding: 50px 20px;
+}
+
+.conteudo h3,
+.conteudo p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #006400; /* verde escuro */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #008000;
+}
+
+.oculto {
+    display: none;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.perguntas {
+    padding: 40px 20px;
+}
+
+.pergunta {
+    background: rgba(0, 0, 0, 0.6);
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.pergunta h4,
+.pergunta p {
+    color: white;
+}
