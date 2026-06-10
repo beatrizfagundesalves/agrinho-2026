@@ -1,86 +1,68 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Natureza Protegida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    color: black;
+    <!-- Faixa Superior Verde Escuro -->
+    <header class="faixa-topo">
+        <h1>Agro Forte, Natureza Protegida</h1>
+        <h2>Equilíbrio para as Próximas Gerações</h2>
+    </header>
 
-    /* Imagem de fundo ilustrativa */
-    background-image: url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
+    <!-- Conteúdo da Página -->
+    <main class="conteudo-geral">
+        <div class="container-central">
+            
+            <!-- PARTE PRINCIPAL: Imagem de fundo exclusiva aqui -->
+            <section class="caixa-principal-fundo">
+                <div class="mascara-leitura">
+                    <h3>Garantia de alimentos, recursos naturais e qualidade de vida para todos</h3>
+                    
+                    <p class="texto-destaque">
+                        Garantir alimentos, proteger os recursos naturais e oferecer qualidade de vida é o objetivo do agro sustentável. 
+                        Com práticas responsáveis, o setor aumenta a produção sem prejudicar o meio ambiente, construindo um futuro 
+                        equilibrado para as próximas gerações.
+                    </p>
 
-.topo {
-    background-color: #90ee90; /* verde claro */
-    padding: 30px;
-}
+                    <!-- Botão Saiba Mais -->
+                    <button id="btn-saiba-mais">Saiba mais</button>
+                </div>
+            </section>
+            
+            <!-- Modal de Informações (Janela flutuante do Saiba Mais) -->
+            <div id="modal-texto" class="modal escondido">
+                <div class="modal-conteudo">
+                    <span id="btn-fechar">&times;</span>
+                    <p><strong>Agro Forte, Natureza Protegida: Equilíbrio para as Próximas Gerações</strong></p>
+                    <p>O agronegócio é fundamental para produzir alimentos, fibras e recursos essenciais para a sociedade, além de fortalecer a economia. No entanto, para que esse crescimento seja sustentável, é preciso proteger os recursos naturais e o meio ambiente. Práticas responsáveis, como o uso consciente da água, o manejo adequado do solo, a rotação de culturas e tecnologias modernas, permitem aumentar a produtividade sem prejudicar a natureza. Dessa forma, o agro garante alimentos de qualidade, preserva ecossistemas e contribui para a qualidade vida das próximas gerações, construindo um futuro equilibrado entre desenvolvimento e sustentabilidade. 🌱</p>
+                </div>
+            </div>
 
-.topo h1,
-.topo h2 {
-    color: black; /* Mudança para preto */
-}
+            <!-- SEÇÃO DE PERGUNTAS: Fora da imagem, totalmente limpa -->
+            <section class="perguntas-container">
+                <div class="card-pergunta">
+                    <h4>O que significa “Agro Forte, Natureza Protegida”?</h4>
+                    <p> Significa produzir alimentos de forma eficiente enquanto se conserva o meio ambiente.</p>
+                </div>
 
-.conteudo {
-    padding: 50px 20px;
-}
+                <div class="card-pergunta">
+                    <h4>Como a agricultura pode proteger a natureza?</h4>
+                    <p> Usando práticas como rotação de culturas, plantio direto e preservação de áreas naturais.</p>
+                </div>
 
-.conteudo h3,
-.conteudo p {
-    color: black; /* Mudança para preto */
-    margin-bottom: 20px;
-}
+                <div class="card-pergunta">
+                    <h4>Por que equilibrar produção agrícola e preservação ambiental é importante para o futuro?</h4>
+                    <p> Porque garante alimentos, água limpa e um ambiente saudável para as próximas gerações.</p>
+                </div>
+            </section>
+        </div>
+    </main>
 
-button {
-    background-color: #006400; /* verde escuro */
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    font-size: 18px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #008000;
-}
-
-.oculto {
-    display: none;
-    margin-top: 20px;
-    background: rgba(255, 255, 255, 0.9); /* fundo branco com leve transparência */
-    color: black; /* texto preto */
-    padding: 20px;
-    border-radius: 10px;
-    text-align: left;
-}
-
-.perguntas {
-    padding: 40px 20px;
-    background-color: #f2f2f2; /* fundo cinza claro */
-}
-
-.pergunta {
-    background: white;
-    color: black;
-    margin: 20px auto;
-    max-width: 900px;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    text-align: left;
-}
-
-.pergunta h4 {
-    color: #006400; /* verde escuro para destaque do título */
-}
-
-.pergunta p {
-    margin-top: 10px;
-    line-height: 1.6;
-}
+    <script src="script.js"></script>
+</body>
+</html>
